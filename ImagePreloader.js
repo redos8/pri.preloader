@@ -4,7 +4,7 @@
  * @author Yuriy Petrov (theredos7@gmail.com)
  */
 
-class ImagePreloader {
+export default class ImagePreloader {
   constructor(images = [], options = {}) {
     this.images = images || [];
     this.baseUrl = options.baseUrl || '';

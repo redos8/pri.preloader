@@ -1,0 +1,21 @@
+{
+  "name": "pri.preloader",
+  "version": "1.0.0",
+  "description": "Preloader Class",
+  "main": "ImagePreloader.js",
+  "authors": [
+    "Yuri Petrov (theredos7@gmail.com)"
+  ],
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/redos8/pri.preloader",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

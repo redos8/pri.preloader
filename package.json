@@ -1,0 +1,24 @@
+{
+  "name": "pri.preloader",
+  "version": "1.0.0",
+  "description": "Image preloader Class",
+  "main": "ImagePreloader.js",
+  "scripts": {
+    "build": "babel ImagePreloader.js -o imagepreloader.es5.js --presets es2015",
+    "dev": "babel ImagePreloader.js -o imagepreloader.es5.js -w --presets es2015",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redos8/pri.preloader.git"
+  },
+  "author": "Yuri Petrov (theredos7@gmail.com)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/redos8/pri.preloader/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0"
+  }
+}
